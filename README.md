@@ -84,12 +84,14 @@ curl -fsSL https://raw.githubusercontent.com/SM-FUND/Mobius/refs/heads/productio
 安装成功时，最后会看到类似输出：
 
 ```text
-[mobius] Mobius 0.3.0+62 已启动，控制台端口 8787。
-[mobius] 初始化码：ABCD-EFGH-IJKL-MNOP
-[mobius] 安装完成：http://203.0.113.10:8787
+[mobius] Mobius 0.3.0+62 installed.
+[mobius] Console:    http://203.0.113.10:8787
+[mobius] Setup code: ABCD-EFGH-IJKL-MNOP
 ```
 
-**请保存好初始化码**，首次登录时需要用到。
+**请保存好初始化码，不要截图外传**：在绑定验证器之前，拿到“IP + 初始化码”的人就能接管控制台。
+
+> 安装和运维命令的终端输出都是英文：AWS Lightsail 等云厂商的网页终端往往缺少中文字体，中文会显示成方框。控制台界面仍是中文。
 
 ### 放行 8787 端口
 
