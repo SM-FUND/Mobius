@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+69",
-  "tag": "v0.3.0.69",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.69/mobius-0.3.0-69-linux-amd64.tar.gz",
-  "sha256": "a953a30fe4a683382959a82a9fa3069d3be48ab04f83fbacc86fcafbf81c9b94",
-  "published_at": "2026-10-19T10:23:30Z",
-  "source_commit": "78b01d64abb26712383d8cd95ef50de84da4f196",
-  "notes": "- chore: remove accidentally committed node_modules symlink\n- feat(ui): move opportunity pin button to row start and enlarge it\n- feat(ui): pin opportunities with separate spread and funding queues\n- feat(auth): shorten standalone setup code to 8 characters\n- fix(release): English terminal output for installer and updater\n- feat: show egress IP whitelist hint in workbench account settings\n- feat: probe egress IP at startup for exchange whitelist hint\n- docs(release): rewrite Mobius README, default to sudo and Ubuntu\n- fix(kraken): read relativeFundingRate as live funding rate\n- feat: backfill premium-index and settled-funding history on spread chart panes"
+  "version": "0.3.0+71",
+  "tag": "v0.3.0.71",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.71/mobius-0.3.0-71-linux-amd64.tar.gz",
+  "sha256": "ee891d6efd4715e8a88d4f42b9780f910a7c2850aea691de1a7f63b13b0b250c",
+  "published_at": "2026-10-19T12:56:14Z",
+  "source_commit": "fc40f2c97561c1db9b01518046aaff420720dbc4",
+  "notes": "- fix(stop-loss): keep closing until flat and mark triggers on the chart\n- feat(ui): add English interface with first-run language choice"
 }
