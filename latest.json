@@ -1,7 +1,9 @@
 {
   "version": "0.3.0+62",
-  "url": "https://raw.githubusercontent.com/SM-FUND/Mobius/production/releases/mobius-0.3.0-62-linux-amd64.tar.gz",
-  "sha256": "e2e64cf41456223d839a82f2e6c140883e727d8634ec3ad69c16cae66f9f3adf",
-  "published_at": "2026-10-19T07:17:16Z",
-  "notes": "ci(release): gate publishing on scripts/check.sh\n\nRelease 工作流在编译前运行执行合同、格式、workspace 测试与严格 Clippy，任一失败即不发布。仅改 CI，不改变发行产物，版本号保持与 dev 一致（0.3.0+62）。\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
+  "tag": "v0.3.0.62",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.62/mobius-0.3.0-62-linux-amd64.tar.gz",
+  "sha256": "1f21aaed4a91f15e74abe88c36dfdab91357d154117dca20a3aa8583d2531c29",
+  "published_at": "2026-10-19T08:08:17Z",
+  "source_commit": "0444ada319b0ed0c476c22e20becef826456f454",
+  "notes": "- ci(release): publish GitHub Releases via GitHub App"
 }
