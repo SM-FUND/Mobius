@@ -12,6 +12,9 @@ fail() { echo "[mobius] $*" >&2; exit 1; }
 [ "$(id -u)" -eq 0 ] || fail "请使用 root 运行：curl ... | sudo bash"
 case "$(uname -m)" in x86_64 | amd64) ;; *) fail "仅支持 x86_64 架构，当前为 $(uname -m)" ;; esac
 command -v systemctl >/dev/null && [ -d /run/systemd/system ] || fail "需要 systemd"
+# 发行版只在 Ubuntu 22.04/24.04 上验证；其他系统继续安装但不保证可用。
+. /etc/os-release 2>/dev/null || true
+[ "${ID:-}" = "ubuntu" ] || echo "[mobius] 警告：Mobius 只支持 Ubuntu 22.04/24.04，当前系统为 ${PRETTY_NAME:-未知}，继续安装但不保证可用。" >&2
 for tool in curl tar sha256sum flock; do
   command -v "$tool" >/dev/null && continue
   command -v apt-get >/dev/null || fail "缺少 $tool，请先安装"
@@ -42,6 +45,7 @@ cat <<MSG
 [mobius] 首次打开时输入上面的初始化码并绑定 TOTP 验证器（Google Authenticator 等），之后每次登录都需要动态验证码。
 [mobius] 丢失验证器：sudo mobius-update reset-auth（清除验证器并生成新的初始化码）。
 [mobius] 控制台通过 HTTP 访问，流量未加密：交易所 API Key 务必关闭提现权限，并把 IP 白名单设为本机 $ip。
-[mobius] 服务管理：systemctl status mobius ｜ 日志：journalctl -u mobius -f
+[mobius] 服务管理：sudo systemctl status mobius ｜ 日志：sudo journalctl -u mobius -f
+[mobius] 云服务器还需在安全组 / 防火墙放行 TCP 8787（ufw：sudo ufw allow 8787/tcp）。
 [mobius] 之后的版本更新在控制台右上角一键完成，无需再次执行本脚本。
 MSG
