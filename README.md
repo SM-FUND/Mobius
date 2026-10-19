@@ -86,7 +86,7 @@ curl -fsSL https://raw.githubusercontent.com/SM-FUND/Mobius/refs/heads/productio
 ```text
 [mobius] Mobius 0.3.0+62 installed.
 [mobius] Console:    http://203.0.113.10:8787
-[mobius] Setup code: ABCD-EFGH-IJKL-MNOP
+[mobius] Setup code: ABCD-EFGH
 ```
 
 **请保存好初始化码，不要截图外传**：在绑定验证器之前，拿到“IP + 初始化码”的人就能接管控制台。

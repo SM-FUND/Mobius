@@ -48,7 +48,7 @@ say "Mobius $version installed."
 say "Console:    http://$ip:8787"
 if [ -s "$SETUP_CODE_FILE" ]; then
   code=$(cat "$SETUP_CODE_FILE")
-  say "Setup code: ${code:0:4}-${code:4:4}-${code:8:4}-${code:12:4}"
+  say "Setup code: $(echo "$code" | sed 's/.\{4\}/&-/g; s/-$//')"
   say "On first visit enter the setup code, then scan the QR code with an authenticator app"
   say "(Google Authenticator, 1Password, ...). The setup code is invalid once bound. Keep it private."
 else
