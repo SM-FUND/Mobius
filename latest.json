@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+62",
-  "tag": "v0.3.0.62",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.62/mobius-0.3.0-62-linux-amd64.tar.gz",
-  "sha256": "1f21aaed4a91f15e74abe88c36dfdab91357d154117dca20a3aa8583d2531c29",
-  "published_at": "2026-10-19T08:08:17Z",
-  "source_commit": "0444ada319b0ed0c476c22e20becef826456f454",
-  "notes": "- ci(release): publish GitHub Releases via GitHub App"
+  "version": "0.3.0+69",
+  "tag": "v0.3.0.69",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.69/mobius-0.3.0-69-linux-amd64.tar.gz",
+  "sha256": "a953a30fe4a683382959a82a9fa3069d3be48ab04f83fbacc86fcafbf81c9b94",
+  "published_at": "2026-10-19T10:23:30Z",
+  "source_commit": "78b01d64abb26712383d8cd95ef50de84da4f196",
+  "notes": "- chore: remove accidentally committed node_modules symlink\n- feat(ui): move opportunity pin button to row start and enlarge it\n- feat(ui): pin opportunities with separate spread and funding queues\n- feat(auth): shorten standalone setup code to 8 characters\n- fix(release): English terminal output for installer and updater\n- feat: show egress IP whitelist hint in workbench account settings\n- feat: probe egress IP at startup for exchange whitelist hint\n- docs(release): rewrite Mobius README, default to sudo and Ubuntu\n- fix(kraken): read relativeFundingRate as live funding rate\n- feat: backfill premium-index and settled-funding history on spread chart panes"
 }
