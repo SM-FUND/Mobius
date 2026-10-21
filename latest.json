@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+71",
-  "tag": "v0.3.0.71",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.71/mobius-0.3.0-71-linux-amd64.tar.gz",
-  "sha256": "ee891d6efd4715e8a88d4f42b9780f910a7c2850aea691de1a7f63b13b0b250c",
-  "published_at": "2026-10-19T12:56:14Z",
-  "source_commit": "fc40f2c97561c1db9b01518046aaff420720dbc4",
-  "notes": "- fix(stop-loss): keep closing until flat and mark triggers on the chart\n- feat(ui): add English interface with first-run language choice"
+  "version": "0.3.0+77",
+  "tag": "v0.3.0.77",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.77/mobius-0.3.0-77-linux-amd64.tar.gz",
+  "sha256": "a4a687cdb82ce99b75cea5fd22691916b49c4bc2c1c75077e725a010412e1b05",
+  "published_at": "2026-10-21T02:23:09Z",
+  "source_commit": "313821b2c2a2770a8e068d565c2ffeb5aec27dc7",
+  "notes": "- ci(release): build with the toolchain pinned in rust-toolchain.toml\n- docs: document production release branch and sync flow\n- test: restore is_empty assertions rewritten by clippy --fix\n- chore: pin Rust 1.99.1 and clear its new clippy lints\n- ci: install ripgrep before workspace checks\n- fix(ui): stop new-rule window from crashing and fix language switch display\n- chore: release manual-close fixes\n- fix: reconcile externally closed positions during manual liquidation"
 }
