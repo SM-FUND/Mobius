@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+79",
-  "tag": "v0.3.0.79",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.79/mobius-0.3.0-79-linux-amd64.tar.gz",
-  "sha256": "d98de925d8e8e6b058fe4842c8f635e286a8118b8424dc0dfd065b9e03d4b532",
-  "published_at": "2026-10-21T10:50:22Z",
-  "source_commit": "304d05b567e902947b7dd3da0db989042a66cd73",
-  "notes": "- fix: use a fixed public opportunity source\n- docs: document production release flow"
+  "version": "0.3.0+80",
+  "tag": "v0.3.0.80",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.80/mobius-0.3.0-80-linux-amd64.tar.gz",
+  "sha256": "7bab77f602b21e8ca5c077f37d6549ddb0efc18df0a84c7536277e8067d2ee48",
+  "published_at": "2026-10-22T09:09:54Z",
+  "source_commit": "280fc8f5f50f0b9eba83f15d369891cac85389aa",
+  "notes": "- feat(ui): show leg funding rates on watch-only cards"
 }
