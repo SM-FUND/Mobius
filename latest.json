@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+80",
-  "tag": "v0.3.0.80",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.80/mobius-0.3.0-80-linux-amd64.tar.gz",
-  "sha256": "7bab77f602b21e8ca5c077f37d6549ddb0efc18df0a84c7536277e8067d2ee48",
-  "published_at": "2026-10-22T09:09:54Z",
-  "source_commit": "280fc8f5f50f0b9eba83f15d369891cac85389aa",
-  "notes": "- feat(ui): show leg funding rates on watch-only cards"
+  "version": "0.3.0+109",
+  "tag": "v0.3.0.109",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.109/mobius-0.3.0-109-linux-amd64.tar.gz",
+  "sha256": "d27da0bed24c9abed1baf99fdae6885e7cc78390be2da66eeab17e801283181c",
+  "published_at": "2026-11-03T08:38:05Z",
+  "source_commit": "9cdf12c0d4cac850a7fc02eabd1742586719106a",
+  "notes": "- 设置页分段选项按文字自适应列宽，修复英文下 Feishu / Lark 折行\n- 截面价差页跟随工作台明暗主题，隐藏 K 线 TradingView 标识\n- 截面价差页移除语言切换，语言由整体设置统一控制\n- 价差历史保留清理改走时间索引，避免启动后长时间锁库\n- 分享卡按钮改为胶囊样式，关闭改为右下角圆形 ×\n- 修复利润页面板被分享卡样式覆盖：分享卡类名改为 pf-sc\n- 利润页分享卡：改用普通 DOM，卡片下加隐藏收益率/金额与关闭按钮\n- 利润页分享卡：加点阵底纹，显示尺寸缩到 90%\n- 利润页分享卡：收益率大字从 132px 缩到 96px\n- feat(ui): share card shown directly with sm.fund footer\n- feat(ui): profit round share card\n- fix: let rounds flattened just before card deletion finish settlement\n- fix: stop settling episodes of deleted cards; warn on delete only with positions\n- fix: value positions at executable price and count mixed-stablecoin rounds\n- fix: record card profit when manual close finishes\n- fix: value positions at mark price when no last trade price\n- fix: skip unmanaged OKX positions before contract conversion\n- fix: link hedging order states through acknowledged venue order id\n- fix(ledger): include filled quantity in order_state event id\n- fix(gate): scale futures private WS orders/fills/positions by contract multiplier\n- feat: convert cross-stablecoin signals at live FX\n- fix(ui): show card profit for USDT/USDC legs at 1:1\n- fix(ui): hide actual open/close when the card has no position\n- feat(ui): show actual open/close next to entry/exit lines\n- feat: allow USDT/USDC legs 1:1 for all hedging strategies\n- feat(engine): cache settled minute candles in memory\n- feat(ui): turn the memory gap demo into a configurable cross-sectional spread monitor\n- feat(ui): embed memory gap monitor as workbench monitor page\n- feat(ui): show hovered spread, premium and funding values on detail chart"
 }
