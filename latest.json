@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+110",
-  "tag": "v0.3.0.110",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.110/mobius-0.3.0-110-linux-amd64.tar.gz",
-  "sha256": "37e88d62f428c27089bb1aefb2396afdb24bc42f968add3f9a8fe0525ca40f86",
-  "published_at": "2026-11-03T10:40:45Z",
-  "source_commit": "6390e55735cafd741d8cd9be7deacc78d2c6a964",
-  "notes": "- 截面价差页瘦身数据拉取：5 分钟线、按市场缓存、后端增量与去重"
+  "version": "0.3.0+111",
+  "tag": "v0.3.0.111",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.111/mobius-0.3.0-111-linux-amd64.tar.gz",
+  "sha256": "10a490e447559aee23d80203c681147444af922f3b71c3cadbd30b1ffdb18288",
+  "published_at": "2026-11-04T06:22:29Z",
+  "source_commit": "0a4f3bf851c033724e6b1696614f0d4adeef7f81",
+  "notes": "- feat(ui): save profit share card as PNG next to close button"
 }
