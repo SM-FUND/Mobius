@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+111",
-  "tag": "v0.3.0.111",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.111/mobius-0.3.0-111-linux-amd64.tar.gz",
-  "sha256": "10a490e447559aee23d80203c681147444af922f3b71c3cadbd30b1ffdb18288",
-  "published_at": "2026-11-04T06:22:29Z",
-  "source_commit": "0a4f3bf851c033724e6b1696614f0d4adeef7f81",
-  "notes": "- feat(ui): save profit share card as PNG next to close button"
+  "version": "0.3.0+120",
+  "tag": "v0.3.0.120",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.120/mobius-0.3.0-120-linux-amd64.tar.gz",
+  "sha256": "f2e54ffd814b1d1be7151784234e651eb061649e80e8312c81dce9eb00c72b27",
+  "published_at": "2026-11-05T06:05:54Z",
+  "source_commit": "2d45af497797a843512053998b78023c5c750337",
+  "notes": "- feat(telemetry): hourly PostHog usage report for released builds"
 }
