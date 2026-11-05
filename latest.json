@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+120",
-  "tag": "v0.3.0.120",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.120/mobius-0.3.0-120-linux-amd64.tar.gz",
-  "sha256": "f2e54ffd814b1d1be7151784234e651eb061649e80e8312c81dce9eb00c72b27",
-  "published_at": "2026-11-05T06:05:54Z",
-  "source_commit": "2d45af497797a843512053998b78023c5c750337",
-  "notes": "- feat(telemetry): hourly PostHog usage report for released builds"
+  "version": "0.3.0+121",
+  "tag": "v0.3.0.121",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.121/mobius-0.3.0-121-linux-amd64.tar.gz",
+  "sha256": "d5171610d3833f6357d47100cbe9753702db757bddbf6d59a25a7c96b431a2d8",
+  "published_at": "2026-11-05T06:56:00Z",
+  "source_commit": "278173e8a0f6b4816cb9cead1f7530d91ec153e4",
+  "notes": "- feat(telemetry): report detected egress IP with usage events"
 }
