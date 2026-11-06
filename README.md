@@ -1,5 +1,7 @@
 # Mobius 跨交易所套利引擎
 
+**简体中文** | [English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
+
 [![Release](https://img.shields.io/github/v/release/SM-FUND/Mobius?label=release&color=1f6feb)](https://github.com/SM-FUND/Mobius/releases/latest)
 [![Platform](https://img.shields.io/badge/platform-Linux%20x86__64-orange)](#运行环境)
 [![Install](https://img.shields.io/badge/install-一行命令-2ea44f)](#一键安装)
@@ -91,7 +93,7 @@ curl -fsSL https://raw.githubusercontent.com/SM-FUND/Mobius/refs/heads/productio
 
 **请保存好初始化码，不要截图外传**：在绑定验证器之前，拿到“IP + 初始化码”的人就能接管控制台。
 
-> 安装和运维命令的终端输出都是英文：AWS Lightsail 等云厂商的网页终端往往缺少中文字体，中文会显示成方框。控制台界面仍是中文。
+> 安装和运维命令的终端输出都是英文：AWS Lightsail 等云厂商的网页终端往往缺少中文字体，中文会显示成方框。控制台界面可以在“设置”里切换中文或英文。
 
 ### 放行 8787 端口
 
