@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+124",
-  "tag": "v0.3.0.124",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.124/mobius-0.3.0-124-linux-amd64.tar.gz",
-  "sha256": "bea1c077d0f338c5e4f87daf49453a71f566bf3fb58dcdbbe30a3f96775c5b33",
-  "published_at": "2026-11-06T03:49:27Z",
-  "source_commit": "1c93bed944e9fcf9b9c7b25c20621610a82b4599",
-  "notes": "- perf: pause hidden-tab polling and cut workbench request fan-out\n- perf: throttle opportunity stream and stop whole-wall re-renders\n- fix: group opportunity feed legs by upstream asset identity\n- fix: avoid if-let match guard unsupported by Docker Rust 1.91\n- fix: surface degraded account sync instead of \"synced\"\n- fix(ui): disable 进阶机会 threshold toggles that have no threshold yet\n- fix(ui): tidy 进阶机会 deviation header layout\n- fix(ui): draw both legs' window change next to the ratio line in 进阶机会\n- fix(ui): measure 进阶机会 pairs by price ratio instead of spread\n- feat(ui): port Memory Gap Monitor v5 neutral monitoring into 进阶机会\n- feat(ui): move version next to status bar clock, rename cross-section tab to 进阶机会"
+  "version": "0.3.0+126",
+  "tag": "v0.3.0.126",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.126/mobius-0.3.0-126-linux-amd64.tar.gz",
+  "sha256": "d3497287e90b64b1e88fd9eb423aa9ea4b63c53f2d8d350397819976c920ceed",
+  "published_at": "2026-11-06T10:51:43Z",
+  "source_commit": "2a94999a88ca62703d3327f0875c59284342bb10",
+  "notes": "- perf: 截面价差只缓存 5 分钟线；出口 IP 页面缓存\n- perf: 进阶机会加载提速（分钟线缓存扩容、5m 7 天窗口、4 路并发）"
 }
