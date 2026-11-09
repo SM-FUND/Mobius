@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+133",
-  "tag": "v0.3.0.133",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.133/mobius-0.3.0-133-linux-amd64.tar.gz",
-  "sha256": "33f8c2decff3e9bc6b8c9bd33f08fad9428b127ea36d227b4fa26f63ca5f0daf",
-  "published_at": "2026-11-09T10:16:24Z",
-  "source_commit": "d1e59e9559e4d7778cb1bfd825a310ccb025dad0",
-  "notes": "- chore(release):\n- fix(adapters): detect inactive Gate futures and allow empty private streams\n- feat(ui): link each add-exchange page to its sm.fund setup guide\n- feat(ui): add copy button next to egress IP whitelist\n- docs: bump version only when releasing to main\n- fix(ui): show per-wallet equity in settings side panel\n- feat(ui): group exchange products by wallet with per-wallet equity\n- fix(ui): show strategy settings tabs in English\n- fix: make factory wipe best-effort and stop Aster shutdown race from failing restarts\n- fix: perform factory reset wipe at next startup so it survives a failed shutdown\n- fix(ui): show factory-reset progress inside the row with a 10s auto-refresh countdown\n- feat: add factory reset under Settings → Export and about\n- docs(release): Mobius README 增加英文、日语、韩语版本"
+  "version": "0.3.0+134",
+  "tag": "v0.3.0.134",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.134/mobius-0.3.0-134-linux-amd64.tar.gz",
+  "sha256": "e452c92ad5bb82cc4ed65207c5a9df3e4487376e4621b5fe855af822ed5edd20",
+  "published_at": "2026-11-09T10:42:53Z",
+  "source_commit": "7fbf81c5511cfb726a025da20a7b0e567006de4b",
+  "notes": "- chore(release): production\n- fix(ui): keep update dialog on top and link details to GitHub release"
 }
