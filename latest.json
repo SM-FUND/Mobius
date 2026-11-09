@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+126",
-  "tag": "v0.3.0.126",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.126/mobius-0.3.0-126-linux-amd64.tar.gz",
-  "sha256": "d3497287e90b64b1e88fd9eb423aa9ea4b63c53f2d8d350397819976c920ceed",
-  "published_at": "2026-11-06T10:51:43Z",
-  "source_commit": "2a94999a88ca62703d3327f0875c59284342bb10",
-  "notes": "- perf: 截面价差只缓存 5 分钟线；出口 IP 页面缓存\n- perf: 进阶机会加载提速（分钟线缓存扩容、5m 7 天窗口、4 路并发）"
+  "version": "0.3.0+133",
+  "tag": "v0.3.0.133",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.133/mobius-0.3.0-133-linux-amd64.tar.gz",
+  "sha256": "33f8c2decff3e9bc6b8c9bd33f08fad9428b127ea36d227b4fa26f63ca5f0daf",
+  "published_at": "2026-11-09T10:16:24Z",
+  "source_commit": "d1e59e9559e4d7778cb1bfd825a310ccb025dad0",
+  "notes": "- chore(release):\n- fix(adapters): detect inactive Gate futures and allow empty private streams\n- feat(ui): link each add-exchange page to its sm.fund setup guide\n- feat(ui): add copy button next to egress IP whitelist\n- docs: bump version only when releasing to main\n- fix(ui): show per-wallet equity in settings side panel\n- feat(ui): group exchange products by wallet with per-wallet equity\n- fix(ui): show strategy settings tabs in English\n- fix: make factory wipe best-effort and stop Aster shutdown race from failing restarts\n- fix: perform factory reset wipe at next startup so it survives a failed shutdown\n- fix(ui): show factory-reset progress inside the row with a 10s auto-refresh countdown\n- feat: add factory reset under Settings → Export and about\n- docs(release): Mobius README 增加英文、日语、韩语版本"
 }
