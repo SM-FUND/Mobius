@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+134",
-  "tag": "v0.3.0.134",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.134/mobius-0.3.0-134-linux-amd64.tar.gz",
-  "sha256": "e452c92ad5bb82cc4ed65207c5a9df3e4487376e4621b5fe855af822ed5edd20",
-  "published_at": "2026-11-09T10:42:53Z",
-  "source_commit": "7fbf81c5511cfb726a025da20a7b0e567006de4b",
-  "notes": "- chore(release): production\n- fix(ui): keep update dialog on top and link details to GitHub release"
+  "version": "0.3.0+135",
+  "tag": "v0.3.0.135",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.135/mobius-0.3.0-135-linux-amd64.tar.gz",
+  "sha256": "117396846966378c546aa25fd67435dae79efc6c5b38f20afba5a387891af582",
+  "published_at": "2026-11-09T12:27:29Z",
+  "source_commit": "86932190c95443cf179a2bf5c2e998b7ad16c06d",
+  "notes": "- chore(release):\n- feat: 偏离走势支持 % / bps 单位切换\n- feat: store a regression ratio on watch pairs and show ratio deviation\n- fix(ui): show ratio on watch-only cards for different underlyings\n- fix(ui): make OKX/Aster venue logos follow workbench text color\n- chore: sync production v0.3.0+134 version to dev and main\n- fix(ui): order opportunity venue filter by account order and add venue logos"
 }
