@@ -1,9 +1,9 @@
 {
-  "version": "0.3.0+135",
-  "tag": "v0.3.0.135",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.135/mobius-0.3.0-135-linux-amd64.tar.gz",
-  "sha256": "117396846966378c546aa25fd67435dae79efc6c5b38f20afba5a387891af582",
-  "published_at": "2026-11-09T12:27:29Z",
-  "source_commit": "86932190c95443cf179a2bf5c2e998b7ad16c06d",
-  "notes": "- chore(release):\n- feat: 偏离走势支持 % / bps 单位切换\n- feat: store a regression ratio on watch pairs and show ratio deviation\n- fix(ui): show ratio on watch-only cards for different underlyings\n- fix(ui): make OKX/Aster venue logos follow workbench text color\n- chore: sync production v0.3.0+134 version to dev and main\n- fix(ui): order opportunity venue filter by account order and add venue logos"
+  "version": "0.3.0+139",
+  "tag": "v0.3.0.139",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.139/mobius-0.3.0-139-linux-amd64.tar.gz",
+  "sha256": "918205db34e83cf31dbc143481df11a51e7f29f81b468fdc8e43ae6c8cfc89f5",
+  "published_at": "2026-11-11T10:59:07Z",
+  "source_commit": "eda58a1ec2f3eb854d2bb2984fb9ca3d11d135cf",
+  "notes": "- chore: release\n- fix(ui): 进阶机会加入自选时以窗口起点比值作为卡片回归比例\n- feat(ui): add official X and Telegram links to the workbench top bar\n- chore: release\n- fix: scope unsupported conditional orders to the card instrument in manual close\n- feat(ui): 进阶机会改为监控组总览 → 配对榜 → 配对详情\n- chore: release\n- feat(ui): 详情右栏主数字标签改为「价差」\n- feat(ui): 详情右栏重排，价差图纵轴拉开\n- feat(ui): 详情报价与盈亏条挪到右栏，价差图占满中栏\n- chore: release\n- fix(ui): remove focus outline on top page tabs"
 }
