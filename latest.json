@@ -1,9 +1,53 @@
 {
-  "version": "0.3.0+140",
-  "tag": "v0.3.0.140",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.140/mobius-0.3.0-140-linux-amd64.tar.gz",
-  "sha256": "c76ea7dd4a9b66e91faa146e8a85667777a003f77518ecd1f32a19803fa493e0",
-  "published_at": "2026-11-17T10:22:05Z",
-  "source_commit": "dfa25522f97230e537b46a284c83f994fd424d48",
-  "notes": "- chore: release\n- fix(repair): settle orders the venue repeatedly reports missing\n- fix(ab): stop loss is evaluated before the AB back leg\n- fix(ab): a refused front leg never remembers its back leg\n- fix(manual-close): never strand a remainder below the venue minimum\n- fix(account-mirror): REST snapshots cover confirmed intents\n- fix(manual-close): confirmed closes no longer block the leg\n- fix(control-api): surface the real reason when leverage limits cannot be read"
+  "version": "0.3.0+142",
+  "tag": "v0.3.0.142",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.142/mobius-0.3.0-142-linux-amd64.tar.gz",
+  "sha256": "cc812024f1bc7164ed27d7a030a1dccf1c9166aab48e1427b0ea5ef4766f2b14",
+  "published_at": "2026-11-24T09:12:03Z",
+  "source_commit": "9c705a7afe1b3bcda62054f3b8d57fb163f6bf11",
+  "notes": "- 账户同步异常、卡片持仓无法确认时，可以从自选移除卡片（移除前请到交易所核对仓位）",
+  "changes": [
+    {
+      "level": "fix",
+      "zh": "账户同步异常、卡片持仓无法确认时，可以从自选移除卡片（移除前请到交易所核对仓位）",
+      "en": "Cards can be removed from the watchlist when account sync fails and their positions can't be confirmed (check positions on the exchange first)"
+    }
+  ],
+  "history": [
+    {
+      "version": "0.3.0+142",
+      "changes": [
+        {
+          "level": "fix",
+          "zh": "账户同步异常、卡片持仓无法确认时，可以从自选移除卡片（移除前请到交易所核对仓位）",
+          "en": "Cards can be removed from the watchlist when account sync fails and their positions can't be confirmed (check positions on the exchange first)"
+        }
+      ]
+    },
+    {
+      "version": "0.3.0+141",
+      "changes": [
+        {
+          "level": "major",
+          "zh": "规模上限明确为单腿限额：策略设置新增联动的「合计」输入（合计 = 单腿 × 2），已保存的限额含义不变",
+          "en": "Size limit is now explicitly per leg: strategy settings add a linked Total input (Total = per leg × 2); saved limits keep their meaning"
+        },
+        {
+          "level": "feature",
+          "zh": "进阶机会对已自选的配对显示与卡片同口径的偏离",
+          "en": "Advanced opportunities show the deviation of watched pairs on the same basis as their cards"
+        },
+        {
+          "level": "feature",
+          "zh": "新增更新日志：更新前和设置 → 导出与关于中都能查看每个版本改了什么",
+          "en": "New changelog: see what each version changed before updating and in Settings → Export & About"
+        },
+        {
+          "level": "fix",
+          "zh": "规模上限的单腿与合计分两行显示，五位数以上金额不再被截断",
+          "en": "Per-leg and total size limits are shown on two lines, so amounts of five digits or more are no longer cut off"
+        }
+      ]
+    }
+  ]
 }
