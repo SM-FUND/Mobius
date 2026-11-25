@@ -1,19 +1,49 @@
 {
-  "version": "0.3.0+142",
-  "tag": "v0.3.0.142",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.142/mobius-0.3.0-142-linux-amd64.tar.gz",
-  "sha256": "cc812024f1bc7164ed27d7a030a1dccf1c9166aab48e1427b0ea5ef4766f2b14",
-  "published_at": "2026-11-24T09:12:03Z",
-  "source_commit": "9c705a7afe1b3bcda62054f3b8d57fb163f6bf11",
-  "notes": "- 账户同步异常、卡片持仓无法确认时，可以从自选移除卡片（移除前请到交易所核对仓位）",
+  "version": "0.3.0+144",
+  "tag": "v0.3.0.144",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.144/mobius-0.3.0-144-linux-amd64.tar.gz",
+  "sha256": "54dc70fb6c7a454e5eaffe9acf8fe988a81cbbc1645e09ea160c77657954eb23",
+  "published_at": "2026-11-25T02:11:41Z",
+  "source_commit": "f04e7d4ac3833341ad68ee375cade540abd1432b",
+  "notes": "- 进阶机会阈值改为取成本下限、k 倍近期波动与历史分位三者最大，默认比之前高；k、分位、手续费和最低利润可在「关于本组 → 设置」中调整\n- 进阶机会新增扣成本净价差与资金费估算、超阈值后的回归时间统计，以及相关性骤降、单腿放量、单边漂移的风险提示\n- 进阶机会改为三列布局，K 线移到右列",
   "changes": [
     {
-      "level": "fix",
-      "zh": "账户同步异常、卡片持仓无法确认时，可以从自选移除卡片（移除前请到交易所核对仓位）",
-      "en": "Cards can be removed from the watchlist when account sync fails and their positions can't be confirmed (check positions on the exchange first)"
+      "level": "feature",
+      "zh": "进阶机会阈值改为取成本下限、k 倍近期波动与历史分位三者最大，默认比之前高；k、分位、手续费和最低利润可在「关于本组 → 设置」中调整",
+      "en": "Advanced opportunity thresholds now take the largest of a cost floor, k × recent volatility and the historical percentile, so they are higher by default; k, percentile, fee and minimum profit can be set in About this group → Settings"
+    },
+    {
+      "level": "feature",
+      "zh": "进阶机会新增扣成本净价差与资金费估算、超阈值后的回归时间统计，以及相关性骤降、单腿放量、单边漂移的风险提示",
+      "en": "Advanced opportunities add an after-cost spread and funding estimate, reversion-time statistics after threshold crossings, and warnings for falling correlation, single-leg volume surges and one-sided drift"
+    },
+    {
+      "level": "feature",
+      "zh": "进阶机会改为三列布局，K 线移到右列",
+      "en": "Advanced opportunities use a three-column layout with candlesticks on the right"
     }
   ],
   "history": [
+    {
+      "version": "0.3.0+144",
+      "changes": [
+        {
+          "level": "feature",
+          "zh": "进阶机会阈值改为取成本下限、k 倍近期波动与历史分位三者最大，默认比之前高；k、分位、手续费和最低利润可在「关于本组 → 设置」中调整",
+          "en": "Advanced opportunity thresholds now take the largest of a cost floor, k × recent volatility and the historical percentile, so they are higher by default; k, percentile, fee and minimum profit can be set in About this group → Settings"
+        },
+        {
+          "level": "feature",
+          "zh": "进阶机会新增扣成本净价差与资金费估算、超阈值后的回归时间统计，以及相关性骤降、单腿放量、单边漂移的风险提示",
+          "en": "Advanced opportunities add an after-cost spread and funding estimate, reversion-time statistics after threshold crossings, and warnings for falling correlation, single-leg volume surges and one-sided drift"
+        },
+        {
+          "level": "feature",
+          "zh": "进阶机会改为三列布局，K 线移到右列",
+          "en": "Advanced opportunities use a three-column layout with candlesticks on the right"
+        }
+      ]
+    },
     {
       "version": "0.3.0+142",
       "changes": [
