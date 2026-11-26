@@ -1,29 +1,39 @@
 {
-  "version": "0.3.0+144",
-  "tag": "v0.3.0.144",
-  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.144/mobius-0.3.0-144-linux-amd64.tar.gz",
-  "sha256": "54dc70fb6c7a454e5eaffe9acf8fe988a81cbbc1645e09ea160c77657954eb23",
-  "published_at": "2026-11-25T02:11:41Z",
-  "source_commit": "f04e7d4ac3833341ad68ee375cade540abd1432b",
-  "notes": "- 进阶机会阈值改为取成本下限、k 倍近期波动与历史分位三者最大，默认比之前高；k、分位、手续费和最低利润可在「关于本组 → 设置」中调整\n- 进阶机会新增扣成本净价差与资金费估算、超阈值后的回归时间统计，以及相关性骤降、单腿放量、单边漂移的风险提示\n- 进阶机会改为三列布局，K 线移到右列",
+  "version": "0.3.0+146",
+  "tag": "v0.3.0.146",
+  "url": "https://github.com/SM-FUND/Mobius/releases/download/v0.3.0.146/mobius-0.3.0-146-linux-amd64.tar.gz",
+  "sha256": "ce069dfe7d2fa93a95219e114255a69ee99170fad6279f6b25df44839a935585",
+  "published_at": "2026-11-26T08:20:38Z",
+  "source_commit": "84a63506e09ab1867ad263c3072692ad65aeb712",
+  "notes": "- 比值卡片的详情图恢复实时更新\n- 修复利润页已删卡片名称不全、分享卡 logo 色边",
   "changes": [
     {
-      "level": "feature",
-      "zh": "进阶机会阈值改为取成本下限、k 倍近期波动与历史分位三者最大，默认比之前高；k、分位、手续费和最低利润可在「关于本组 → 设置」中调整",
-      "en": "Advanced opportunity thresholds now take the largest of a cost floor, k × recent volatility and the historical percentile, so they are higher by default; k, percentile, fee and minimum profit can be set in About this group → Settings"
+      "level": "fix",
+      "zh": "比值卡片的详情图恢复实时更新",
+      "en": "Ratio card detail charts update live again"
     },
     {
-      "level": "feature",
-      "zh": "进阶机会新增扣成本净价差与资金费估算、超阈值后的回归时间统计，以及相关性骤降、单腿放量、单边漂移的风险提示",
-      "en": "Advanced opportunities add an after-cost spread and funding estimate, reversion-time statistics after threshold crossings, and warnings for falling correlation, single-leg volume surges and one-sided drift"
-    },
-    {
-      "level": "feature",
-      "zh": "进阶机会改为三列布局，K 线移到右列",
-      "en": "Advanced opportunities use a three-column layout with candlesticks on the right"
+      "level": "fix",
+      "zh": "修复利润页已删卡片名称不全、分享卡 logo 色边",
+      "en": "Fixed truncated names of deleted cards on the Profit page and colored edges on the share card logo"
     }
   ],
   "history": [
+    {
+      "version": "0.3.0+146",
+      "changes": [
+        {
+          "level": "fix",
+          "zh": "比值卡片的详情图恢复实时更新",
+          "en": "Ratio card detail charts update live again"
+        },
+        {
+          "level": "fix",
+          "zh": "修复利润页已删卡片名称不全、分享卡 logo 色边",
+          "en": "Fixed truncated names of deleted cards on the Profit page and colored edges on the share card logo"
+        }
+      ]
+    },
     {
       "version": "0.3.0+144",
       "changes": [
